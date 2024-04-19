@@ -20,9 +20,13 @@ _Desktop Documents Downloads  HumanFriends.txt  Music  PackAnimals.txt  Pets.txt
    - Подключить дополнительный репозиторий MySQL и установить один из пакетов из этого репозитория.
 
 sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb
+
 sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb
+
 sudo apt-get update
+
 sudo apt-get install mysql-server
+
 
 
 
@@ -30,7 +34,9 @@ sudo apt-get install mysql-server
    - Установить и затем удалить deb-пакет, используя команду `dpkg`.
 
 sudo wget https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+
 sudo dpkg -i docker-ce-cli_20.10.133-0ubuntu-jammy_amd64.deb
+
 sudo dpkg -r docker-ce-cli
 
 
