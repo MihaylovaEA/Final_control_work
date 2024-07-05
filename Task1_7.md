@@ -214,3 +214,4 @@ Task1_6_Diagram.png
    UNION
    SELECT id, name, birth_date, genius_id FROM young_animals;
 
+Задания 8-10 ()
