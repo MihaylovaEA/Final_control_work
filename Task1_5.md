@@ -53,4 +53,4 @@ sudo dpkg -r docker-ce-cli
 
 Task1_6_Diagram.png
 
-
+![alt text](<Uml Diagram.png>)
